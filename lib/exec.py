@@ -9,7 +9,7 @@ script = sys.argv[2]
 
 start = time.time()
 exitcode = subprocess.call(
-    ['python', script], cwd=cwd, stderr=subprocess.STDOUT)
+    ['python3', script], cwd=cwd, stderr=subprocess.STDOUT)
 
 
 end = time.time()
